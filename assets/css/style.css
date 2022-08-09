@@ -51,7 +51,7 @@ aside{
     width: 100%;
     position: relative;
     /* top:15vh; */
-    bottom: 10px;
+    bottom: 5vh;
     z-index: 5;
     text-align: center;
     color: #000;
@@ -115,10 +115,10 @@ aside{
         font-size: 16px;
     }
 
-    footer{
+    /* footer{
         position: relative;
         top: 5vh;
-    }
+    } */
     .footer p{
         font-size: 0.75em;
         width: 100%;
