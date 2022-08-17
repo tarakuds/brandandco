@@ -67,6 +67,20 @@ aside{
     letter-spacing: normal;
 }
 
+@media (min-width: 1920px) {
+    .text-content h1{
+        font-size: 2.495rem;
+        color: blue;
+
+    }
+    .text-content{
+        width: 72%;
+        margin: 0% 13% 0 15%;
+        padding: 2% 0 0 5%;
+    }
+    
+}
+
 @media (min-width: 768px){
     header .logo{
         top:20px;
@@ -142,19 +156,6 @@ aside{
         letter-spacing: normal;
     }
 
-}
-
-@media (min-width: 1500px) {
-    .text-content h1{
-        font-size: 2.485rem;
-
-    }
-    .text-content{
-        width: 73%;
-        margin: 0% 12% 0 15%;
-        padding: 2% 0 0 5%;
-    }
-    
 }
 
 @keyframes bgColor{
