@@ -69,11 +69,11 @@ aside{
 
 @media (min-width: 1440px) {
     .text-content h1{
-        font-size: 3rem;
+        font-size: 2.685rem;
     }
     .text-content{
-        width: 71.5%;
-        margin: 0% 13.5% 0 15%;
+        width: 72%;
+        margin: 0% 13% 0 15%;
         padding: 2% 0 0 5%;
     }
     
