@@ -1,7 +1,7 @@
 body{
-    background-color:#fff;
+    background-color:#e5e5e5;
     font-family: 'Montserrat', sans-serif;
-  animation: bgColor 10s ease-out infinite;
+  animation: bgColor 10s ease-in-out infinite;
 
 }
 header{
@@ -41,7 +41,7 @@ aside{
 .text-content p{
     width: 35%;
     margin-bottom: 25px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1rem;
     color: #000;
     text-transform: capitalize;
@@ -59,7 +59,7 @@ aside{
 
 .footer p{
     text-transform:none;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 0.75em;
     width: 40%;
     margin: 0% auto;
