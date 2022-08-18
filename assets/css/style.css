@@ -1,7 +1,9 @@
 body{
     background-color:#e5e5e5;
     font-family: 'Montserrat', sans-serif;
-  animation: bgColor 10s ease-in-out infinite;
+  animation: bgColor 10s ease-in-out infinite alternate;
+  /* animation-fill-mode: forwards; */
+  /* animation-delay: 1s; */
 
 }
 header{
@@ -166,4 +168,5 @@ aside{
     100%{
       background-color: rgb(255, 255, 255);
     }
+    
   }
