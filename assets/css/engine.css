@@ -21,12 +21,9 @@ body{background-color:#000;color:#fff;font-family:"value","sans";font-weight:nor
 }
     
 :root{font-size:24px}@media (max-width: 1600px){:root{font-size:22px}}
-/* @media (max-width: 1024px){:root{font-size:20px} header .logo{position:absolute;top:48px;left:72px;width:129px;height:48px;min-width:86px;min-height:32px;background-image:url(../gfx/logo-desktop.png);}} */
 @media (max-width: 1280px){:root{font-size:20px}}@media (max-width: 640px){:root{font-size:16px}}
 
 header,main,aside{width:100%}a{color:#000}section>*:not(picture),article>*:not(picture),aside>*{max-width:30em;margin-left:48px;margin-right:48px;}
-
-/* @media (min-width: 550px){header .logo{background-image:url(../gfx/logo-mobile.png);}} */
 
 @media (max-width: 480px){section>*:not(picture),article>*:not(picture),aside>*{margin-left:calc(((((100vw - 360px) / 120) * 24) + 24px));margin-right:calc(((((100vw - 360px) / 120) * 24) + 24px))}}@media (max-width: 360px){section>*:not(picture),article>*:not(picture),aside>*{margin-left:24px;margin-right:24px}}header{z-index:6;position:absolute;top:0;left:0;width:100%;height:0;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
 
