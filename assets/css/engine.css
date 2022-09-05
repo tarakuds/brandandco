@@ -60,10 +60,17 @@ article picture::before{content:'';position:absolute;top:0;left:0;display:block;
 aside{z-index:5;position:fixed;top:0;left:0;overflow:scroll;-webkit-overflow-scrolling:touch;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;width:100%;height:100%;pointer-events:none;background-color:rgba(255, 255, 255, 1);opacity:0;transition:opacity 400ms 200ms}
 html.view_info aside{opacity:1;transition:opacity 400ms 0s}aside>*{opacity:0;transform:translateY(-0.8em);transition:opacity 400ms 0s, transform 0s 600ms}html.view_info aside>*{opacity:1;transform:translateY(0);transition:opacity 600ms 400ms, transform 800ms ease-out 0s}aside span{display:inline-block}html.view_info aside a{pointer-events:all;-webkit-user-select:all;-moz-user-select:all;-ms-user-select:all;user-select:all}aside address{max-width:36em;font-size:calc((5 / 6) * 1em);line-height:1.2em;display:flex;flex-direction:column;align-items:center}aside address::before,aside address::after{content:'';position:relative;display:block;height:1px;width:6em;margin:2em 0;background-color:currentColor}aside address a:first-of-type{margin-bottom:1.2em}aside .social{display:flex;flex-direction:row}aside .social a{position:relative;width:36px;height:36px;min-width:24px;min-height:24px;background-repeat:no-repeat;background-size:contain;background-position:center;pointer-events:all}
 
-aside .social a:nth-last-of-type(4){margin:0 36px}aside .social a.behance{background-image:url(../gfx/behance.png)}aside .social a.instagram{background-image:url(../gfx/instagram.png)}aside .social a.twitter{background-image:url(../gfx/twitter.png)}aside .social a.youtube{background-image:url(../gfx/youtube.png)}aside .social a.linkedin{background-image:url(../gfx/linkedin.png)}
+aside .social a:nth-last-of-type(4){margin:0 36px}
+aside .social a.behance{background-image:url(../gfx/behance.png)}
+aside .social a.instagram{background-image:url(../gfx/instagram.png)}
+aside .social a.twitter{background-image:url(../gfx/twitter.png)}
+aside .social a.youtube{background-image:url(../gfx/youtube.png)}
+/* aside .social a.linkedin{background-image:url(../gfx/linkedin.png)} */
 
 @media (max-width: 1920px){aside .social a{height:calc((36 / 1920) * 100vw);width:calc((36 / 1920) * 100vw)}aside .social a:nth-last-of-type(2){margin:0 calc((36 / 1920) * 100vw)}}
 
 @media (max-width: 1280px){aside .social a:nth-last-of-type(2){margin:0 36px}}
+
+@media (max-width: 2560px){aside .social a:nth-last-of-type(2){margin:0 36px}}
 
 /*# sourceMappingURL=engine.css.map */
